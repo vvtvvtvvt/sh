@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Укажите заголовок страницы</title>
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<style>
+			article, aside, details, figcaption, figure, footer, header,
+			hgroup, munu, nav, section {display: block;}
+		</style>
+		<!-- Укажите адрес к скрипту или удалите эту строчку -->
+		<script type="text/ecmascript" src="js/script.js"></script>
+		<!--Укажите адрес к файлу со стилями или удалите строчку -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body onload="main2();" >
+        <h1>Шашки</h1>
+        <div class="cont">
+            <canvas id="game" width="500" height="500">
+                <p>Ваш браузер не поддерживает рисование.</p>
+            </canvas> 
+        </div>
+        <input type="button" value="Новая игр" id ="newgame">     
+	</body>
+</html>
